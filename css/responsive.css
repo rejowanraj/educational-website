@@ -1,0 +1,49 @@
+@media (max-width: 1399.98px) {
+
+
+
+
+
+
+ }
+
+
+
+@media (max-width: 1199.98px) { ... }
+
+
+
+@media (max-width: 991.98px) { 
+    .navbar-nav{
+        padding-left: 2rem !important;
+    }
+    h5.carousel-content {font-size: 16px;}
+ }
+
+
+
+@media (max-width: 991.98px) { ... }
+
+
+
+@media (max-width: 767.98px) { ... }
+
+
+
+@media (max-width: 575.98px) { 
+    .container{
+        width: 100%;
+    }
+    h5.carousel-content a{
+        font-size: 13px;
+    }
+    .carousel-caption.d-md-block.position-absolute.top-50.start-50.translate-middle{
+        top: 50% !important;
+    }
+ }
+
+
+
+
+
+

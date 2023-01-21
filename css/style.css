@@ -1,0 +1,205 @@
+@font-face {
+    font-family:SolaimanLipi;
+    src: url(../solaimanlipi/SolaimanLipi_22-02-2012.ttf);
+  }
+
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body{
+    font-family:SolaimanLipi;
+    font-size: 15px;
+  }
+
+  img{
+      width: 100%;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  ul{
+      list-style: none;
+      padding: 0 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+      margin: 0 !important;
+  }
+
+  .container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .con-shadow{
+    box-shadow: 3px 3px 3px 7px rgb(0 0 0 / 10%);
+    transition: 0.3s;
+  }
+
+  nav{
+      background-color: #013C57;
+      border-bottom: 2px solid #74010D;
+      padding: 0 !important;
+  }
+
+  .navbar-nav li a{
+      color: #ffffff !important;
+  }
+
+  .navbar-nav li:hover{
+      background-color: #034F72 !important ;
+  }
+    .nav-link:focus, .nav-link:hover{
+        color: #ffffff;
+    }
+
+  .navbar-nav li{
+      border-right: 1px solid #ccc;
+  }
+
+  ul.navbar-nav li {padding:0 6px;}
+
+  .dropdown-menu{
+      background-color: #034F72 !important;
+  }
+  .dropdown-menu li{
+      padding: 0 !important;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125!important;
+    
+}
+
+  /* slider */
+
+  .carousel-caption.d-md-block.position-absolute.top-50.start-50.translate-middle {top: 57% !important;}
+ 
+  h5.carousel-content {background: black;opacity: 0.5;padding: 10px;border-radius: 8px;}
+
+h5.carousel-content a {color: #ffffff;text-decoration: none;}
+
+/* marque */
+marquee{
+    color: #1A57B7;
+    font-size: 16px;
+}
+.bg-danger {
+    background-color: #dc3545!important;
+    background: linear-gradient(-90deg, #138FDE, #003CA9);
+    color: #ffffff;
+    width: 20% !important;
+    padding: 7px;
+}
+.marque-title h4 {font-size: 16px;}
+.marque {width: 100%; background-color: #EDEDED!important; padding: 5px;}
+/* end marquee */
+
+/* body inner start */
+.ins-img{
+    width: 50%;
+}
+.ins-con{
+    width: 50%;
+}
+h2.ins-title.mb-2 {background: linear-gradient(-90deg, #138FDE, #003CA9);color: #ffffff;font-size: 16px;padding: 5px;}
+
+.ins-layout-one-img, .ins-layout-two-img{
+    width: 40%;
+}
+
+.ins-layout-content-one, .ins-layout-content-two{
+    width: 60%;
+    text-align: justify;
+}
+
+h2.ins-title.third-title {font-size: 20px;background: linear-gradient(-90deg, #DB526A, #A53146);color: #ffffff;padding: 5px;}
+
+.third-layout, .four-layout{
+    border: 1px solid #808080;
+    background-color: #ececec;
+    padding: 20px;
+}
+
+
+.student-right-third-layout ul li:before, .teacher-right-third-layout ul li::before, .down-right-four-layout ul li::before, .info-right-four-layout ul li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: middle;
+    font-weight: 900;
+    color: #3e3d3c;
+ }
+ .student-right-third-layout ul li a, .teacher-right-third-layout ul li a, .down-right-four-layout ul li a, .info-right-four-layout ul li a{
+     color: #3e3d3c;
+ }
+
+ .student-right-third-layout ul li a:hover, .teacher-right-third-layout ul li a:hover, .down-right-four-layout ul li a:hover, .info-right-four-layout ul li a:hover{
+     color: blueviolet;
+ }
+
+ h2.ins-title.four-title {font-size: 20px;padding: 5px;background: linear-gradient(-90deg, #D8931E, #965D03);color: #ffffff;}
+
+ h2.ins-title.four-title-info {font-size: 20px;color: #ffffff;padding: 5px;background: linear-gradient(-90deg, #4DA9E4, #1C76B1);}
+
+ /* right column */
+ .right-btn li::before{
+    font-family: "Font Awesome 5 Free";
+    content:"\f18e";
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: middle;
+    font-weight: 900;
+    color: #ffffff;
+    margin-left: 5px;
+    width: 1.5em;
+ }
+
+ ul.right-btn li {background: linear-gradient(-90deg, #DE182C, #C71528);margin-bottom: 8px;padding: 5px;}
+
+ ul.right-btn li a{
+    color: #ffffff;
+ }
+
+ h2.notice-title, .fb-title, .official-title, .import-title {font-size: 18px;background: linear-gradient(-90deg, #138FDE, #003CA9);color: #ffffff;padding: 5px;}
+
+.notice-board, .official-board, .import-board{
+    background-color: #ececec;
+}
+
+ .notice-board ul li::before, .official-board ul li::before, .import-board ul li::before{
+    font-family: "Font Awesome 5 Free";
+    content:"\f18e";
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: middle;
+    font-weight: 900;
+    color: #000000;
+    margin-left: 5px;
+    width: 1.5em;
+ }
+
+ .notice-board ul li a, .official-board ul li a, .import-board ul li a{
+     color: #3e3d3c;
+ }
+
+ .notice-board ul li a:hover, .official-board ul li a:hover, .import-board ul li a:hover{
+     color: blueviolet;
+ }
+/* end body inner */
+
+footer{
+    background-color: #0082CF;
+    padding: 10px 0;
+}
+footer p{
+    margin: 0 !important;
+    color: #ffffff;
+}
+
